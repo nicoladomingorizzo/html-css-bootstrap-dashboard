@@ -17,7 +17,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="./index.html"
             ><img src="./img 8/duck.png" alt="duck img" width="50" height="50"
           /></a>
           <button
@@ -81,27 +81,28 @@
                 </select>
             </div>
             <div class="col-md-4">
-                <label for="Year" class="form-label"></label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="Year" class="form-label">Anno di pubblicazione</label>
+                <input type="text" class="form-control" placeholder="Inserisci l'anno" id="Year">
             </div>
-            <div class="col-md-4">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+            <div class="col-md-4 mb-5">
+                <label for="ISBN" class="form-label">ISBN#</label>
+                <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" id="ISBN">
             </div>
+            <hr>
             <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                <label for="Note" class="form-label">Note</label>
+                <textarea class="form-control" id="Note" placeholder="Inserisci eventuali note sul libro" rows="4"></textarea>
             </div>
             <div class="col-12">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
+                    <input class="form-check-input" type="checkbox" id="Digital">
+                <label class="form-check-label" for="Digital">
+                  Disponibile anche in digitale
                 </label>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
             </div>
           </form>
      </div>
